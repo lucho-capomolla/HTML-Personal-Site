@@ -1,0 +1,123 @@
+
+body {
+    background-color: #041C32;
+    font-family: 'Convergence';
+}
+
+hr {
+    border: solid 2px;
+    border-color: #E6B325;
+    box-shadow: 0 0 10px 1px #B68809;
+}
+
+h1 {
+    font-size: 4em;
+    padding-top: 1em;
+    line-height: 50%;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2em;
+    color: #E6B325;
+    text-shadow: 3px 3px 5px #B68809;
+}
+
+.profile p {
+    font-size: 2em;
+    padding-bottom: 1em;
+    font-weight: normal;
+}
+
+.profile {
+    color: #E6B325;
+    text-shadow: 0.5em 0.5em 10px #B68809;
+    padding-bottom: 25%;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5em;
+    margin: auto;
+}
+
+.skill-row {
+    color: #B68809;
+    width: 50%;
+    margin: 50px auto 50px auto;
+}
+
+.skill-row h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.skill-row p{
+    font-size: 16px;
+}
+
+.middle-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    background: #527DEB;
+    background-image: -webkit-linear-gradient(top, #527DEB, #003185);
+    background-image: -moz-linear-gradient(top, #527DEB, #003185);
+    background-image: -ms-linear-gradient(top, #527DEB, #003185);
+    background-image: -o-linear-gradient(top, #527DEB, #003185);
+    background-image: linear-gradient(to bottom, #527DEB, #003185);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    text-shadow: 1px 1px 2px #B38702;
+    -webkit-box-shadow: 1px 1px 9px #EBC400;
+    -moz-box-shadow: 1px 1px 9px #EBC400;
+    box-shadow: 1px 1px 9px #EBC400;
+    font-family: 'Convergence';
+    color: #FFC300;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #5CB0FA;
+    background-image: -webkit-linear-gradient(top, #5CB0FA, #032094);
+    background-image: -moz-linear-gradient(top, #5CB0FA, #032094);
+    background-image: -ms-linear-gradient(top, #5CB0FA, #032094);
+    background-image: -o-linear-gradient(top, #5CB0FA, #032094);
+    background-image: linear-gradient(to bottom, #5CB0FA, #032094);
+    text-decoration: none;
+  }
+
+.bottom-container {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+
+.bottom-container a {
+    display: inline;
+    height: 50px;
+    width: 50px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #B68809;
+}

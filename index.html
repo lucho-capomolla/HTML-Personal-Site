@@ -5,67 +5,88 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Luciano Capomolla Portfolio</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="images/favicon2.ico">
+
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Convergence" />
     </head>
 
     <body>
-        <table cellspacing="20">
-            <tr>
-                <td>
-                    <img src="images/Husky smile-modified.png" alt="profile picture">
-                </td>
-                <td>
-                    <h1>Luciano Fabio Capomolla</h1>
-                    <p><em>Information Systems Engineer</em></p>
-                </td>
-            </tr>
-        </table>
+
+        <div class="middle-container">
+            <div class="profile">
+                <h1>Hello, I'm Luciano</h1>
+                <p>a programmer</p>
+            </div>
+        </div>
+    
+        <hr>
+
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skill-row">
+                <h4>Cloud Computing</h4>
+                    <p>Amazon Web Service</p>
+            </div>
+            <div class="skill-row">
+                <h4>DevOps (CI / CD)</h4>
+            </div>
+            <div class="skill-row">
+                <h4>Infrastructure</h4>
+                    <p>Ansible</p>
+                    <p>Kubernetes</p>
+                    <p>Docker</p>
+                    <p>Terraform</p>
+            </div>
+            <div class="skill-row">
+                <h4>Testing</h4>
+                    <p>Test-Driven Development</p>
+            </div>
+            <div class="skill-row">
+                <h4>Git</h4>
+            </div>
+            <div class="skill-row">
+                <h4>Languages</h4>
+                    <p>Python</p>
+                    <p>Java</p>
+                    <p>C++</p>
+                    <p>C</p>
+            </div>
+            <div class="skill-row">
+                <h4>Data Bases</h4>
+                    <p>SQL</p>
+                    <p>T-SQL</p>
+            </div>
+        </div>
 
         <hr>
 
-        <h3>Education</h3>
-        <ul>
-            <li>Universidad Tecnológica Nacional (U.T.N.) 2016 - 2025</li>
+        <div class="container">
+            <h2>Work Experience</h2>
             <ul>
-                <li><em>Ingeniería en Sistemas de Información</em></li>
+                <li>IBM (2022 - Now)</li>
+                <p>Consulting Intern</p>
             </ul>
-        </ul>
-
-        <hr>
-
-        <h3>Work Experience</h3>
-        <table cellspacing="10">
-            <thead>
-                <th>Dates</th>
-                <th>Work</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2022-Actually</td>
-                    <td>Consulting Intern at IBM</td>
-                </tr>
-            </tbody>  
-        </table>
+        </div>
 
         <hr>
         
-        <h3>Skills</h3>
-        <table cellspacing="10">
-            <tr>
-                <td>Java</td>
-                <td>C++</td>
-                <td>SQL</td>
-                <td>T-SQL</td>
-            </tr>
-            <tr>
-                <td>Terraform</td>
-                <td>Ansible</td>
-                <td>Kubernetes</td>
-                <td>Docker</td>
-            </tr>
-        </table>
+        <div class="container">
+            <button class="btn" onclick="window.location.href='mailto:lucho.capomolla@gmail.com,lucho.capomolla@hotmail.com'">Contact Me</button>
+        </div>
+        
+        
+        <div class="bottom-container">
+            <div class="links-container">
+                <a href="https://www.linkedin.com/in/luciano-fabio-capomolla/" target="_blank">
+                    <img class="logo" src="./images/linkedin.png" alt="linkedin-logo" width="50px" height="50px">
+                </a>
+                <a href="https://github.com/lucho-capomolla" target="_blank">
+                    <img class="logo" src="./images/github.png" alt="github-logo" width="50px" height="50px">
+                </a>
+            </div>
+            <h5>© Luciano Capomolla</h5>
+        </div>
 
-
-        <a href="hobbies.html"><strong>My Hobbies</strong></a>
-        <a href="contact-me.html"><strong>Contact Me</strong></a>
     </body>
 </html>
